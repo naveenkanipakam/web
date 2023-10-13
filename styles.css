@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: #2F1893;
+    margin: 2rem 8rem 3rem 7rem;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+   /*  min-height: 100vh; */ /* Ensure the body takes at least the full height of the viewport */
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 30px;
+    margin-top: 4rem;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 100px;
+    }
+
+  .navbar h3 {
+    margin: 0; /* Remove default margin for h2 */
+    width: 111px;
+    height: 19px;
+    padding: 0px, 3px, 0px, 2px;
+    margin-left: 125px;
+  }
+
+  .navbar .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-right: 100px;
+
+  }
+
+  .nav-links a:first-child{
+    opacity: 0.5;
+  }
+  .nav-links a:nth-last-child(1){
+
+    border-radius: 100px;
+    padding: 5px;
+    background: rgba(233, 58, 125, 1);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex: 1; /* Take remaining vertical space */
+    padding: 20px;
+    margin: 0 200px;
+  }
+
+  .left,
+  .right {
+    flex: 1;
+    box-sizing: border-box;
+     margin-bottom: 50px; 
+     justify-content: space-between;
+  }
+
+  .left {
+    padding: 2rem;
+    text-align: left;
+    color: #fff;
+    font-size: 26px;
+    margin-right: 300px;
+    height:825px;
+  }
+  .left .fst{
+    margin-top: 0;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: left;
+  }
+  .left .sec{
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .left .btn{
+   font-size: 26px;
+   font-family: inherit;
+   color: rgb(255, 255, 255);
+   border: none;
+   padding: 15px;
+   background: rgba(233, 58, 125, 1);
+   border-radius: 40px;
+   width: 200px;
+   height: 70px;
+   top: 665px;
+   left: 209px;
+   
+  }
+  .right {
+    background: rgb(255, 255, 255);
+    color: #000;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 500px;
+    height: 825px;
+    margin-right: 100px;
+  }
+
+  .right h2{
+    color:  rgba(30, 14, 98, 1);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+  }
+ 
+  .login-form {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    justify-content: space-between;
+
+  }
+
+  .login-form input {
+    width: 100%;
+    padding: 40px;
+    border-radius: 50px;
+    font-size: inherit;
+    text-align: left;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 550px;
+    height: 50px;
+    border-color: rgb(76, 74, 74,0.3);
+    top: 321px;
+    left: 785px;
+
+  }
+
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: inherit;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 550px;
+    height: 75px;
+    top: 525px;
+    left: 785px;
+    cursor: pointer;
+  }
+  input[type=checkbox]{
+    width: 228px;
+    height: 26px;
+    top: 471.4px;
+    left: 822px;
+    right: 0;
+    color: rgba(21, 20, 57, 0.4);
+  }
+  .box{
+    margin-left: -90px;
+    margin-right: 200px;
+  }
+  
+  input[type=password]{
+    margin: 25px 0 50px 0;
+
+  }
+  button[type= submit] {
+    background: rgba(72, 43, 231, 1);
+   
+  }
+
+  button[type= button] {
+    background: rgba(29, 161, 242, 1);
+  }
+  .login-form p{
+    color: rgba(21, 20, 57, 0.4);
+
+  }
+  .login-form a{
+    color: rgba(37, 218, 197, 1);
+  }
+  .line-with-text {
+    position: relative;
+    text-align: center;
+    margin: 25px;
+    color: rgba(21, 20, 57, 0.4);
+  }
+
+  .line-with-text hr {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    border: 1px solid rgba(21, 20, 57, 0.4);
+  }
+
+  .line-with-text span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+    padding: 0 10px;
+  }
